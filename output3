@@ -1,0 +1,33 @@
+Classification Using Data Mining Algorithms
+--------------------------------------------
+
+Dataset: weather.nominal.arff
+
+1. ID3 Classifier
+Decision tree generated successfully.
+
+2. J48 Classifier
+outlook = sunny AND humidity = high: no
+outlook = sunny AND humidity = normal: yes
+outlook = overcast: yes
+outlook = rainy AND windy = TRUE: no
+outlook = rainy AND windy = FALSE: yes
+
+3. Naive Bayes Classifier
+Classification performed using probability.
+
+4. k-NN Classifier (IBk)
+Classification performed using k = 3.
+
+Root Entropy = 0.940 bits
+
+Evaluation Metrics:
+Accuracy, Kappa statistic, Precision, Recall,
+F-Measure, Confusion Matrix and ROC-AUC.
+
+Rule Extraction:
+IF outlook = sunny AND humidity = high
+THEN play = no
+
+Result:
+Classification algorithms demonstrated successfully.
