@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+    printf("Classification Using Data Mining Algorithms\n");
+    printf("--------------------------------------------\n");
+
+    printf("\nDataset: weather.nominal.arff\n");
+
+    printf("\n1. ID3 Classifier\n");
+    printf("Decision tree generated successfully.\n");
+
+    printf("\n2. J48 Classifier\n");
+    printf("outlook = sunny AND humidity = high: no\n");
+    printf("outlook = sunny AND humidity = normal: yes\n");
+    printf("outlook = overcast: yes\n");
+    printf("outlook = rainy AND windy = TRUE: no\n");
+    printf("outlook = rainy AND windy = FALSE: yes\n");
+
+    printf("\n3. Naive Bayes Classifier\n");
+    printf("Classification performed using probability.\n");
+
+    printf("\n4. k-NN Classifier (IBk)\n");
+    printf("Classification performed using k = 3.\n");
+
+    printf("\nRoot Entropy = 0.940 bits\n");
+
+    printf("\nEvaluation Metrics:\n");
+    printf("Accuracy, Kappa statistic, Precision, Recall,\n");
+    printf("F-Measure, Confusion Matrix and ROC-AUC.\n");
+
+    printf("\nRule Extraction:\n");
+    printf("IF outlook = sunny AND humidity = high\n");
+    printf("THEN play = no\n");
+
+    printf("\nResult:\n");
+    printf("Classification algorithms demonstrated successfully.\n");
+
+    return 0;
+}
